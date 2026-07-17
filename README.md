@@ -19,7 +19,6 @@ Asked *"What is File Handling in Java, with an example?"*, the system retrieves 
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # then add your own GROQ_API_KEY
 ```
 
 Open `hybridsearch.ipynb` and run the cells top to bottom. The first run builds the ChromaDB index (`hybrid_search/`, gitignored) from your source PDF — point the ingestion cell at any PDF of your own to reuse this on different content.
