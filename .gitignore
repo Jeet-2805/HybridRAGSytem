@@ -1,0 +1,15 @@
+# Environment variables (contains your GROQ_API_KEY)
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Persisted ChromaDB vector store — regenerates locally when you run
+# the ingestion cells, so it doesn't need to live in git
+hybrid_search/
+
+# OS
+.DS_Store
+Thumbs.db
